@@ -11,7 +11,6 @@ public class InventorySKULookup {
         String[] codes = {"SKU-101", "SKU-205", "SKU-310", "SKU-412", "SKU-500"};
 
         Scanner scanner = new Scanner(System.in);
-        String response;
 
         // Outer loop to keep the program running continuously
         while (true) {
