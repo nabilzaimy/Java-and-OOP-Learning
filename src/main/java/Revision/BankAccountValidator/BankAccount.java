@@ -9,7 +9,7 @@ public class BankAccount {
     BankAccount(String accountNumber , String accountHolder , Double balance){
         this.accountNumber = accountNumber;
         this.accountHolder = accountHolder;
-        this.balance = balance;
+        setBalance(balance);
     }
 
     public String getAccountHolder(){
