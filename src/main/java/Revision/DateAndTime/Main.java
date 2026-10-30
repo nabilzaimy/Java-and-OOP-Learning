@@ -33,7 +33,7 @@ public class Main {
 
         ZonedDateTime now = ZonedDateTime.now(ZoneId.of("America/New_York"));
         DateTimeFormatter formatter2 = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss z (VV)").
-                withZone(ZoneId.of("Asia/Tokyo"));
+                withZone(ZoneId.of("Asia/Kuala_Lumpur"));
         String formattedDate2 = now.format(formatter2);
 
 
